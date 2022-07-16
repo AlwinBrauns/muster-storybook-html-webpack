@@ -1,0 +1,13 @@
+.BasicButton {
+    padding: 20px;
+    border-radius: 20px;
+    outline: solid 1px;
+    border: none;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+    &:hover {
+        outline: solid 1px grey;
+        cursor: pointer;
+        background-color: white;
+    }
+}

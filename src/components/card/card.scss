@@ -1,0 +1,16 @@
+.Card {
+    background-color: rgb(201, 228, 236);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    place-items: center;
+    >* {
+        margin: 10px;
+    }
+    .title {
+        grid-column: 1/-1;
+    }
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px whitesmoke;
+}

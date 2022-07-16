@@ -1,0 +1,20 @@
+header {
+    background-color: lightblue;
+    height: 90px;
+    ul {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        place-items: center;
+        * {
+            text-decoration: none;
+            list-style-type: none;
+        }
+        a {
+            color: black;
+            &:hover {
+                color: grey;
+            }
+        }
+    }
+}
